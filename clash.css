@@ -1,0 +1,27 @@
+/* ============================= */
+/* === Clash Royale Fan Page === */
+/* ============================= */
+
+body {
+	background-color: #0066ff;
+	padding: 15px;
+}
+/* === Header === */
+/*#brickTop {
+	background-image: url("assets/pics/brick.png");
+	background-repeat: repeat-x;
+	background-size: 70px;
+	height: 40px;
+	width: 40%;
+	margin: 0 30% 0 30%;
+
+}*/
+#header {
+	background-color: black;
+	border: 50px solid transparent;
+	border-image: url("assets/pics/brick.png") 5 30 horizontal;
+}
+#header h1 {
+	color: white;
+	text-align: center;
+}
