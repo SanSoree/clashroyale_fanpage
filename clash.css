@@ -3,8 +3,9 @@
 /* ============================= */
 
 body {
-	background-color: #0066ff;
-	padding: 15px;
+	background-color: #6699ff;
+	margin: 25px;
+	/*padding: 15px;*/
 }
 /* === Header === */
 /*#brickTop {
@@ -17,9 +18,9 @@ body {
 
 }*/
 #header {
-	background-color: black;
-	border: 50px solid transparent;
-	border-image: url("assets/pics/brick.png") 5 30 horizontal;
+	/*background-color: black;*/
+	border: 60px solid black;
+	border-image: url("assets/pics/brick.png") 27 30 repeat;
 }
 #header h1 {
 	color: white;
